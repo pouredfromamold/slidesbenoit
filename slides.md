@@ -1,241 +1,152 @@
----
-title: "Etalab"
-subtitle: "La mission qui ouvre les données publiques"
-author: "Benoît"
-role: "EIG - CPO données & MCP"
-organization: "Direction interministérielle du numérique"
-date: "20 Janvier 2026"
+[presentation_bilan_alliance_2025.md](https://github.com/user-attachments/files/24743208/presentation_bilan_alliance_2025.md)
+# Bilan ALLiaNCE 2025
+## Incubateur IA du secteur public
+
 ---
 
-# Introduction
+## Vue d'ensemble
 
-## Qu'est-ce qu'Etalab ?
+**Mission 2025** : Accompagnement des partenariats FTAP Data avec mise en production et retours utilisateurs satisfaisants
 
-Etalab est un **département de la DINUM** chargé de :
+**Résultats** : 
+- 11 produits structurés
+- Validation des phases d'expérimentation
+- Financements sécurisés pour déploiement 2026
 
-- Coordonner la politique d'**ouverture des données publiques** (open data)
-- Développer et opérer **data.gouv.fr**, la plateforme nationale des données ouvertes
-- Accompagner les administrations dans leur **transformation numérique par la donnée**
-- Promouvoir l'**utilisation des données** pour l'intérêt général
+---
 
-:::callout[Création]
-Etalab a été créé en **2011** par décret du Premier ministre.
-:::
+## Les produits incubés
 
-## Positionnement
+### Assistants spécialisés (3)
 
-Etalab fait partie de la **DINUM** (Direction interministérielle du numérique).
+#### 🟢 Assistant RH (DGAFP)
+- **Expérimentation** : 23 participants (14 gestionnaires, 2 agents CISIRH)
+- **Base de données** : 103 Q/R sur les contractuels
+- **Sources** : Légifrance, Service-public.fr, RGRH, notes MATTE
+- **Satisfaction** : 4,1/5 sur l'utilité, 3,4/5 sur les réponses
+- **Suite** : Intégration Assistant IA T2 2026 ✅
 
-| Entité | Rôle |
-|--------|------|
-| DINUM | Direction interministérielle du numérique |
-| Etalab | Département données ouvertes & data |
-| data.gouv.fr | Plateforme open data |
+#### 🟢 Jacepair - Assistant juridique (Conseil d'État)
+- **Tests** : 10 membres du Conseil d'État
+- **Adoption** : 9/10 souhaitent utiliser la solution
+- **Panorama juridique** : 4,8/5 d'intérêt
+- **Impact** : -30% temps de recherche (40-60% du temps magistrats)
+- **Suite** : Accord de principe sous réserve financement ✅
 
-> La donnée est un levier majeur de transformation de l'action publique.
+#### 🟢 Mes questions cyber (ANSSI)
+- **Statut** : En production, déploiement alpha
+- **Suite** : Retours utilisateurs en cours ✅
 
-# Missions principales
+---
 
-## Open Data
+### Intelligence documentaire (2)
 
-L'ouverture des données publiques est au cœur de la mission :
+#### 🟢 Dépenses éclairées (AIFE)
+- **Production** : API PISTE ouverte, 11 gestionnaires Chorus actifs
+- **Volume** : 6 515 EJ traités = 37 167 documents
+- **Performance** : 70% EJ avec désignation, 90% jugées suffisantes
+- **Objectif T1 2026** : 70 utilisateurs quotidiens + 100 erreurs détectées
+- **Partenariat** : Mistral-SAP (24 924 utilisateurs potentiels, 4M EJ/an) ✅
 
-- **Publication** des données des administrations
-- **Accompagnement** des producteurs de données
-- **Animation** de la communauté réutilisateurs
-- **Qualité** et standardisation des données
+#### 🧪 Document IA (MTE)
+- **Déploiement** : DossierFacile, 700 000 pièces/mois
+- **Objectif** : -50% coûts d'opération d'ici fin 2026 (actuellement 80k€/mois)
+- **Automatisation** : 68% raisons de refus automatisables
+- **Architecture** : OCR + LLM via AlbertAPI SecNumCloud
+- **Opportunités** : PassSport, Mon Compte Formation (2,74 Md€), ASP (9 Md€), MonDALO
 
-:::alert[info]
-La France est régulièrement classée dans le top 3 mondial de l'open data.
-:::
+---
 
-## data.gouv.fr
+### Produits beta.gouv (6)
 
-La plateforme nationale des données ouvertes :
+#### 🟢 Mon assistant pénal (Cour d'appel Paris)
+- **MVP** : 15 magistrats testeurs
+- **UX** : 100% trouvent l'interface intuitive
+- **Qualité** : 67% réponses exhaustives
+- **Suite** : Déploiement 2026, financement jusqu'en août ✅
 
-- **+50 000** jeux de données publiés
-- **+100 000** réutilisations référencées
-- **API** ouvertes et documentées
-- **Communauté** active de contributeurs
+#### 🟡 Sosten
+- À venir
 
-:::highlight
-data.gouv.fr est un bien commun numérique, en open source.
-:::
+---
 
-## Service Public de la Donnée
+## Accélération de produits
 
-Le **SPD** garantit la mise à disposition de données de référence :
+### 🟢 Compar'IA (promotion 2024, refinancé 2025)
+**Déploiement européen réussi** :
+- 170 000 votes collectés (vs 100 000 objectif)
+- 91 modèles IA évalués
+- 1 040 facilitateurs actifs
+- **Réutilisation** : Mistral, Google, Hugging Face, universités
+- **Extension** : 3 nouveaux pays européens ✅
 
-- Base Adresse Nationale (BAN)
-- Registre National des Entreprises (SIRENE)
-- Code Officiel Géographique (COG)
-- Référentiel de l'Organisation Administrative de l'État
+### 🧪 Liane sur démarches
+- **Alpha** : Brique simpliscore en production
+- **Pilote** : Démarche Culture (107 champs)
+- **Fonctionnalités** : Transcription FALC, amélioration structure, nettoyage redondances
+- **Suite** : Beta avril 2026
 
-:::callout[Engagement qualité]
-Ces données sont mises à jour en continu et accessibles gratuitement.
-:::
+---
 
-# Projets phares
+## Animation & formation
 
-## api.gouv.fr
+### Clarification de l'offre
+**4 chantiers structurants** :
+1. Cartographie formations IA agents publics
+2. Référencement chartes interministérielles
+3. Présentation produits interministériels et incubés
+4. Développement site internet et outils cartographie
 
-Le catalogue des API du service public :
+**Impact** : ↓ demandes d'information et erreurs de contact
 
-- FranceConnect
-- API Entreprise
-- API Particulier
-- Géoplateforme
+---
 
-:::alert[success]
-Plus de 2 000 API référencées pour simplifier les démarches.
-:::
+### Communauté active
 
-## schema.data.gouv.fr
+#### Panorama solutions IA "sur étagère"
+- ~100 solutions référencées
+- Event : +170 participants
 
-La standardisation des données :
+#### Rencontres & engagement
+- 5 rencontres ALLiaNCE = +300 personnes
+- Tchap IA de l'État : 725 membres, activité quasi-quotidienne
+- **NPS** : +2 (50 répondants, octobre)
 
-- **Schémas** de données validés
-- **Documentation** des formats
-- **Validation** automatique
-- **Interopérabilité** renforcée
+#### Infolettre
+Diffusion initiatives ministères + veille IA sphère publique
+→ Accueil positif partenaires
 
-## Transport.data.gouv.fr
+---
 
-Point d'accès national aux données transport :
+## Enseignements clés 2025
 
-- Horaires théoriques
-- Temps réel
-- Accessibilité
-- Infrastructures de recharge
+### 1. Besoin d'orientation massif
+Les administrations ont besoin d'accompagnement pour identifier la solution IA adéquate (privée vs interne)
 
-# IA et Données
+### 2. Technologies RAG : besoin de mutualisation
+Besoins récurrents autour du RAG sur données internes/sensibles
+→ Stratégie Assistant IA : intégration moteurs spécialisés dès T1 2026
 
-## L'IA dans l'État
+### 3. Passage à l'échelle : défi majeur
+Nombreuses expérimentations, peu de déploiements effectifs
+→ Constat Cour des comptes (nov. 2025)
 
-Etalab contribue au développement de l'IA dans l'administration :
+---
 
-- **Albert** : LLM souverain pour les agents publics
-- **Données d'entraînement** issues de l'open data
-- **MCP** (Model Context Protocol) pour connecter les données
+## Légende
 
-:::callout[IAE]
-Le département IA dans l'État (IAE) pilote ces sujets en lien avec Etalab.
-:::
+- ✅ Mise en production
+- ♥️ Retours utilisateurs satisfaisants
+- 💰 Financement sécurisé
+- 🧪 Expérimentation
+- ❔ En cours / À préciser
+- 🟢 Succès
+- 🟡 En développement
 
-## Données et LLM
-
-Les données ouvertes alimentent l'IA :
-
-| Usage | Exemple |
-|-------|---------|
-| RAG | Interroger la documentation administrative |
-| Fine-tuning | Adapter les modèles au langage administratif |
-| Agents | Accéder aux API publiques |
-
-:::highlight
-La qualité des données ouvertes détermine la qualité des réponses IA.
-:::
-
-# Conclusion
-
-## Pourquoi c'est important
-
-- **Transparence** de l'action publique
-- **Innovation** par la réutilisation des données
-- **Efficacité** administrative
-- **Souveraineté** numérique
-
-:::alert[info]
-L'open data est un pilier de la démocratie numérique.
-:::
+---
 
 ## Pour aller plus loin
 
-- [data.gouv.fr](https://data.gouv.fr) - Plateforme open data
-- [api.gouv.fr](https://api.gouv.fr) - Catalogue des API
-- [schema.data.gouv.fr](https://schema.data.gouv.fr) - Schémas de données
-- [guides.data.gouv.fr](https://guides.data.gouv.fr) - Documentation
+**Rapport Cour des comptes** : [La stratégie nationale pour l'IA](https://www.ccomptes.fr/fr/publications/la-strategie-nationale-pour-lintelligence-artificielle-consolider-les-succes-de-la)
 
-:::callout[Contact]
-Etalab est joignable sur data.gouv.fr et via les réseaux sociaux.
-:::
----
-title: "DSFR Slides T[slides.md](https://github.com/user-attachments/files/24742315/slides.md)
-emplate"
-subtitle: "Créez vos présentations en Markdown"
-author: "Votre Nom"
-role: "Votre Poste @ Organisation"
-organization: "Direction interministérielle du numérique"
-date: "20 Janvier 2026"
----
-
-# Introduction
-
-## Bienvenue
-
-Bienvenue dans **DSFR Slides Template**, un outil pour créer des présentations conformes au Design System de l'État.
-
-- Écrivez vos slides en **Markdown**
-- Déployez automatiquement sur **GitHub Pages**
-- Profitez du style **DSFR** sans effort
-
-## Comment ça marche ?
-
-1. Éditez le fichier `slides.md`
-2. Utilisez la syntaxe Markdown standard
-3. Push sur GitHub
-4. Votre présentation est en ligne !
-
-> Astuce : consultez FORMAT.md pour la syntaxe complète.
-
-# Fonctionnalités
-
-## Éléments Markdown
-
-Le parser supporte tous les éléments Markdown standards :
-
-- **Gras** et *italique*
-- [Liens](https://www.systeme-de-design.gouv.fr/)
-- `Code inline`
-- Listes à puces et numérotées
-
-## Callouts et Alertes
-
-:::callout[Information importante]
-Les callouts permettent de mettre en avant une information clé.
-:::
-
-:::alert[warning]
-Les alertes attirent l'attention sur des points critiques.
-:::
-
-## Tableaux
-
-| Fonctionnalité | Supportée |
-|----------------|-----------|
-| Front-matter YAML | Oui |
-| Sections | Oui |
-| Callouts | Oui |
-| Alertes | Oui |
-| Images | Oui |
-
-# Navigation
-
-## Raccourcis clavier
-
-La navigation au clavier est complète :
-
-| Touche | Action |
-|--------|--------|
-| → / Espace | Slide suivante |
-| ← | Slide précédente |
-| Home | Première slide |
-| End | Dernière slide |
-| 1-9 | Aller à la slide N |
-
-## Merci !
-
-Créez vos présentations DSFR en quelques minutes.
-
-- Repository : [GitHub](https://github.com/)
-- Documentation : [FORMAT.md](./FORMAT.md)
+**Site ALLiaNCE** : [alliance.numerique.gouv.fr](https://alliance.numerique.gouv.fr)
