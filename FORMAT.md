@@ -1,3 +1,4 @@
+[Uploading format-slides.md…]()
 # Format Markdown des Slides
 
 Ce document décrit la syntaxe Markdown utilisée pour créer des présentations DSFR.
@@ -69,6 +70,16 @@ Chaque slide hérite de la section courante.
 ```
 
 Placez vos images dans le dossier `public/images/`.
+
+#### Éléments décoratifs
+
+Trois gradients PNG sont disponibles pour agrémenter les fonds de slides de manière aléatoire :
+
+- `gradient-blue.png` : dégradé bleu
+- `gradient-coral.png` : dégradé corail/rose
+- `gradient-purple.png` : dégradé violet
+
+Ces éléments peuvent être utilisés en arrière-plan pour dynamiser visuellement la présentation tout en restant dans une esthétique sobre et professionnelle.
 
 ### Tableaux
 
