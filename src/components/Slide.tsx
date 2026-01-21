@@ -1,37 +1,42 @@
-import type { ReactNode } from 'react'
-import styles from '../styles/slides.module.css'
+import React from 'react';
+import './Slide.css';
 
 interface SlideProps {
-  number: number
-  title: string
-  section?: string
-  background?: 'default' | 'alt'
-  children: ReactNode
-  totalSlides: number
+  children: React.ReactNode;
+  index?: number;
+  className?: string;
 }
 
-export function Slide({
-  number,
-  title,
-  section,
-  background = 'default',
-  children,
-  totalSlides,
-}: SlideProps) {
-  const bgClass = background === 'alt' ? styles.slideAlt : styles.slideDefault
+// Liste des gradients disponibles
+const GRADIENT_IMAGES = [
+  '/images/gradient-blue.png',
+  '/images/gradient-coral.png',
+  '/images/gradient-purple.png',
+];
 
+export function Slide({ children, index = 0, className = '' }: SlideProps) {
+  // Sélectionner le gradient en fonction de l'index de la slide
+  const gradientImage = GRADIENT_IMAGES[index % GRADIENT_IMAGES.length];
+  
+  // Alterner la position du gradient (droite/gauche)
+  const isOdd = index % 2 === 1;
+  
   return (
-    <article
-      className={`${styles.slide} ${bgClass}`}
-      aria-label={`Slide ${number} sur ${totalSlides} : ${title}`}
-    >
-      <div className={styles.slideContent}>
-        <header className={styles.slideContentHeader}>
-          {section && <p className={styles.slideSection}>{section}</p>}
-          <h1 className={`fr-h2 ${styles.slideTitle}`}>{title}</h1>
-        </header>
-        <div className={styles.slideBody}>{children}</div>
+    <div className={`slide ${className}`}>
+      {/* Gradient décoratif en arrière-plan */}
+      <div 
+        className="slide-gradient-decoration"
+        style={{
+          backgroundImage: `url(${gradientImage})`,
+          [isOdd ? 'left' : 'right']: '-100px',
+          [isOdd ? 'bottom' : 'top']: '0',
+        }}
+      />
+      
+      {/* Contenu de la slide */}
+      <div className="slide-content">
+        {children}
       </div>
-    </article>
-  )
+    </div>
+  );
 }
