@@ -180,3 +180,4 @@ Attention à ce point important.
 2. **Utilisez les sections** : organisez votre présentation
 3. **Limitez le texte** : préférez les listes aux paragraphes
 4. **Images optimisées** : compressez vos images pour le web
+5. Au moins une slide sur deux à un élément de décoration gradient
