@@ -1,0 +1,68 @@
+/* 
+  Gradients décoratifs pour les slides
+  Fichier : src/styles/gradients.css
+*/
+
+/* Ajout de gradients décoratifs sur toutes les slides */
+.slide {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient en arrière-plan via pseudo-élément */
+.slide::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Rotation des 3 gradients avec alternance de position */
+.slide:nth-child(3n+1)::before {
+  background-image: url('/images/gradient-blue.png');
+  top: 0;
+  right: -100px;
+  background-position: top right;
+}
+
+.slide:nth-child(3n+2)::before {
+  background-image: url('/images/gradient-coral.png');
+  bottom: 0;
+  left: -100px;
+  background-position: bottom left;
+}
+
+.slide:nth-child(3n+3)::before {
+  background-image: url('/images/gradient-purple.png');
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+  background-position: center right;
+}
+
+/* S'assurer que le contenu des slides est au-dessus du gradient */
+.slide > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive : plus petit et plus subtil sur mobile */
+@media (max-width: 768px) {
+  .slide::before {
+    width: 300px;
+    height: 300px;
+    opacity: 0.1;
+  }
+}
+
+/* Masquer les gradients à l'impression */
+@media print {
+  .slide::before {
+    display: none;
+  }
+}
