@@ -3,7 +3,7 @@ title: "Recherche juridique & IA dans le service public"
 subtitle: "Session de cartographie collective"
 author: "Elsa Le Duigou"
 role: "ALLiaNCE"
-organization: "DINUM et Ministère de la Justice"
+organization: "Direction interministérielle du numérique"
 date: "2026"
 ---
 
@@ -32,4 +32,37 @@ Mon Assistant Pénal, Jacepair (Conseil d'État), outils DILA sur Legifrance, re
 | **Cible** | Tous agents publics | Magistrats, juristes, DAJ |
 | **Besoin** | Accéder aux textes en vigueur | Interpréter, accéder à la doctrine et aux décisions |
 | **Sources** | Legifrance, Judilibre, ArianeWeb (publiques) | Bases doctrinales privées (Dalloz, Lexis…) + bases internes (Jurica, Ariane) |
-| **Solution envisagée** | RAG interministériel — inférence Albert API, actualisation DILA | RAG
+| **Solution envisagée** | RAG interministériel — inférence Albert API, actualisation DILA | RAG facile sur bases internes + marché IA juridique porté par la DAE |
+| **Portage** | DINUM + DILA + ALLiaNCE | Ministère de la Justice + Conseil d'État, avec accompagnement ALLiaNCE |
+
+:::alert[info]
+Les sources de niveau 2 sont souvent propriétaires et varient selon la spécialité juridique. Les décisions de justice ne sont pas toutes publiques — elles appartiennent aux juridictions.
+:::
+
+# Les entités associées
+
+## Un travail collectif inter-institutionnel
+
+Cette démarche réunit quatre entités aux mandats complémentaires :
+
+- **Ministère de la Justice** : portage politique et opérationnel pour l'ordre judiciaire (~25 000 personnes), accès aux bases internes (Jurica)
+- **Conseil d'État** : portage pour l'ordre administratif (~3 000 personnes), accès à Ariane et ArianeWeb
+- **DILA** : opérateur des données Legifrance, mandat de rediffusion, actualisation du moteur RAG
+- **DINUM** : infrastructure d'inférence via Albert API, coordination interministérielle via ALLiaNCE
+
+:::callout[Principe de subsidiarité]
+Chaque entité reste souveraine sur ses données et ses usages métier. La mutualisation porte sur l'infrastructure et les briques techniques communes.
+:::
+
+# Objectif de la session
+
+## Ce que nous vous demandons aujourd'hui
+
+- ✅ **Valider** ce qui est juste dans votre périmètre
+- ✏️ **Corriger** ce qui est inexact ou approximatif
+- ➕ **Signaler** ce qui manque — acteurs, sources, initiatives
+- 🔜 **Poser les bases** d'une prochaine étape opérationnelle sur le portage
+
+:::highlight
+Qu'est-ce qui est inexact ou manquant dans ce qui relève de votre périmètre ?
+:::
