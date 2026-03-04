@@ -1,16 +1,25 @@
-**Slide 1 — Le constat**
+---
+title: "Recherche juridique & IA dans le service public"
+subtitle: "Session de cartographie collective"
+author: "Elsa Le Duigou"
+role: "ALLiaNCE"
+organization: "Direction interministérielle du numérique"
+date: "2026"
+---
 
-*Un besoin qui remonte de partout, sans réponse coordonnée*
+# Le constat
+
+## Un besoin qui remonte de partout, sans réponse coordonnée
+
+![Dégradé bleu](./images/gradient-blue.png)
 
 - La recherche juridique est un besoin récurrent dans le service public : magistrats, DAJ, agents en contact avec le droit du travail, de la commande publique, du droit public
 - Plusieurs initiatives se développent en parallèle : Mon Assistant Pénal, Jacepair, outils DILA, ministères sociaux
 - Risque : fragmentation des efforts, doublons, inégalité d'accès selon les institutions
 
----
+# La cartographie
 
-**Slide 2 — La cartographie**
-
-*Deux niveaux, des acteurs distincts, des sources différentes*
+## Deux niveaux, des acteurs distincts, des sources différentes
 
 | | Niveau 1 | Niveau 2 |
 |---|---|---|
@@ -19,14 +28,16 @@
 | **Sources** | Legifrance, Judilibre, ArianeWeb | Bases doctrinales privées + bases internes |
 | **Solution envisagée** | RAG interministériel (Albert API + DILA) | RAG facile sur bases internes + marché IA juridique (DAE) |
 
----
+![Dégradé corail](./images/gradient-coral.png)
 
-**Slide 3 — L'objectif de cette session**
+# Objectif de la session
 
-*Ce que nous vous demandons aujourd'hui*
+## Ce que nous vous demandons aujourd'hui
 
 - ✅ Valider ou corriger cette cartographie selon votre périmètre
 - ➕ Signaler ce qui manque
 - 🔜 Poser les bases d'une prochaine étape opérationnelle
 
-> *"Qu'est-ce qui est inexact ou manquant dans ce qui relève de votre périmètre ?"*
+:::highlight
+Qu'est-ce qui est inexact ou manquant dans ce qui relève de votre périmètre ?
+:::
