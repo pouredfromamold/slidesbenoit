@@ -13,30 +13,48 @@ date: "2026"
 
 ![Dégradé bleu](./images/gradient-blue.png)
 
-- La recherche juridique est un besoin récurrent dans le service public : magistrats, DAJ, agents en contact avec le droit du travail, de la commande publique, du droit public
-- Plusieurs initiatives se développent en parallèle : Mon Assistant Pénal, Jacepair, outils DILA, ministères sociaux
-- Risque : fragmentation des efforts, doublons, inégalité d'accès selon les institutions
+La recherche juridique est un besoin transversal au service public, qui remonte de façon récurrente dans des contextes très différents.
+
+- **Magistrats** : besoin d'accès rapide à la jurisprudence et à la doctrine pour instruire et rédiger
+- **DAJ ministérielles** : veille juridique, interprétation de textes, rédaction d'avis
+- **Agents en contact avec le droit** : droit du travail, commande publique, droit public général
+
+:::callout[Plusieurs initiatives en cours]
+Mon Assistant Pénal, Jacepair (Conseil d'État), outils DILA sur Legifrance, renseignement en droit du travail aux ministères sociaux — des projets qui avancent en parallèle, sans coordination.
+:::
+
+> Risque : fragmentation des efforts, doublons, inégalité d'accès selon les institutions et ordres juridictionnels.
 
 # La cartographie
 
-## Deux niveaux, des acteurs distincts, des sources différentes
+## Deux niveaux de besoin, des réponses distinctes
 
 | | Niveau 1 | Niveau 2 |
 |---|---|---|
 | **Cible** | Tous agents publics | Magistrats, juristes, DAJ |
-| **Besoin** | Accès aux textes en vigueur | Interprétation, doctrine, décisions |
-| **Sources** | Legifrance, Judilibre, ArianeWeb | Bases doctrinales privées + bases internes |
-| **Solution envisagée** | RAG interministériel (Albert API + DILA) | RAG facile sur bases internes + marché IA juridique (DAE) |
+| **Besoin** | Accéder aux textes en vigueur | Interpréter, accéder à la doctrine et aux décisions |
+| **Sources** | Legifrance, Judilibre, ArianeWeb (publiques) | Bases doctrinales privées (Dalloz, Lexis…) + bases internes (Jurica, Ariane) |
+| **Solution envisagée** | RAG interministériel — inférence Albert API, actualisation DILA | RAG facile sur bases internes + marché IA juridique porté par la DAE |
+| **Portage** | DINUM + DILA + ALLiaNCE | Par juridiction / ministère, avec accompagnement ALLiaNCE |
 
-![Dégradé corail](./images/gradient-coral.png)
+![Dégradé violet](./images/gradient-purple.png)
+
+:::alert[info]
+Les sources de niveau 2 sont souvent propriétaires et varient selon la spécialité juridique. Les décisions de justice ne sont pas toutes publiques — elles appartiennent aux juridictions.
+:::
 
 # Objectif de la session
 
 ## Ce que nous vous demandons aujourd'hui
 
-- ✅ Valider ou corriger cette cartographie selon votre périmètre
-- ➕ Signaler ce qui manque
-- 🔜 Poser les bases d'une prochaine étape opérationnelle
+![Dégradé corail](./images/gradient-coral.png)
+
+Cette note est un **travail préparatoire**. Elle a vocation à être corrigée et complétée par celles et ceux qui connaissent le terrain.
+
+- ✅ **Valider** ce qui est juste dans votre périmètre
+- ✏️ **Corriger** ce qui est inexact ou approximatif
+- ➕ **Signaler** ce qui manque — acteurs, sources, initiatives
+- 🔜 **Poser les bases** d'une prochaine étape opérationnelle sur le portage
 
 :::highlight
 Qu'est-ce qui est inexact ou manquant dans ce qui relève de votre périmètre ?
