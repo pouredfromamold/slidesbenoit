@@ -1,8 +1,6 @@
 ---
 title: "Recherche juridique & IA dans le service public"
 subtitle: "Session de cartographie collective"
-author: "Élise Farge Di Maria, Elsa Le Duigou"
-role: "ALLiaNCE"
 organization: "Direction interministérielle du numérique | Ministère de la Justice"
 date: "2026"
 ---
