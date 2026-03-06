@@ -1,6 +1,8 @@
 ---
 title: "Recherche juridique & IA dans le service public"
 subtitle: "Session de cartographie collective"
+author: ""
+role: ""
 organization: "Direction interministérielle du numérique | Ministère de la Justice"
 date: "2026"
 ---
