@@ -27,13 +27,13 @@ Jacepair (Conseil d'État), outils DILA sur Legifrance, renseignement en droit d
 
 ## Des mandats différents autour d'un même sujet
 
-- **Ministère de la Justice** : ordre judiciaire (~25 000 personnes), accès aux bases internes (Jurica)
-- **Conseil d'État** : ordre administratif (~3 000 personnes), accès à Ariane et ArianeWeb
+- **Ministère de la Justice** : magistrats et personnels de la Justice judiciaire  (~38 408 personnes), accès aux bases de données juridiques (Legifrance, Judilibre et Jurica pour l'ODDJ...) et à la doctrine
+- **Conseil d'État** : ordre administratif (~4 200 personnes), accès à Ariane et ArianeWeb
 - **Conseil constitutionnel** : contrôle de constitutionnalité, documentation jurisprudentielle propre
 - **Cour de cassation** : juridiction suprême de l'ordre judiciaire, opérateur de Judilibre et Jurica
 - **DAJ ministérielles** : directions des affaires juridiques, productrices et utilisatrices de doctrine interne
 - **DILA** : opérateur des données Legifrance, mandat de rediffusion
-- **DINUM** : infrastructure d'inférence via Albert API, coordination interministérielle via ALLiaNCE
+- **DINUM** : infrastructure d'inférence via Albert API, recherche juridique dans l'Assistant IA - coordination interministérielle via ALLiaNCE
 
 # La cartographie
 
@@ -41,11 +41,10 @@ Jacepair (Conseil d'État), outils DILA sur Legifrance, renseignement en droit d
 
 | | Niveau 1 — Accès aux sources ouvertes | Niveau 2A — Recherche doctrinale | Niveau 2B — Bases internes |
 |---|---|---|---|
-| **Cible** | Tous agents publics | Magistrats, juristes, DAJ | Magistrats, DAJ |
+| **Cible** | Tous agents publics | Magistrats, DAJ | Magistrats, DAJ |
 | **Besoin** | Accéder aux textes en vigueur et à la jurisprudence publique | Interpréter, accéder à la doctrine spécialisée | Accéder aux décisions non publiées et documentations internes |
 | **Sources** | Legifrance, Judilibre, ArianeWeb, EUR-Lex, fiches CNIL, PISTE (API DILA) | Lamyline (droit social), Lexis 360 (affaires / marchés publics), Dalloz (procédure pénale / droit public) | Jurica (Cour de cassation), Ariane (Conseil d'État), documentations internes DAJ |
 | **Accès** | Public et gratuit | Abonnements privés, variables selon les institutions | Réservé aux agents habilités, non anonymisé |
-| **Solution envisagée** | RAG interministériel — inférence Albert API, actualisation DILA via PISTE | Marché IA juridique porté par la DAE pour faciliter l'accès aux offres privées | RAG facile sur bases internes, accompagnement ALLiaNCE |
 
 :::alert[info]
 Les niveaux 2A et 2B peuvent se combiner selon les besoins métier. Un magistrat peut avoir besoin simultanément d'une base doctrinale privée et d'un accès aux décisions internes de sa juridiction.
@@ -58,8 +57,3 @@ Les niveaux 2A et 2B peuvent se combiner selon les besoins métier. Un magistrat
 - ✅ **Valider** ce qui est juste dans votre périmètre
 - ✏️ **Corriger** ce qui est inexact ou approximatif
 - ➕ **Signaler** ce qui manque — acteurs, sources, initiatives
-- 🔜 **Poser les bases** d'une prochaine étape opérationnelle sur le portage
-
-:::highlight
-Qu'est-ce qui est inexact ou manquant dans ce qui relève de votre périmètre ?
-:::
