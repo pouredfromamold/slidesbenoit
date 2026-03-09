@@ -13,12 +13,12 @@ date: "2026"
 
 La recherche juridique est un besoin transversal au service public, qui remonte de façon récurrente dans des contextes très différents.
 
-- **Magistrats** : besoin d'accès rapide à la jurisprudence et à la doctrine pour instruire et rédiger
+- **Magistrats** : besoin d'accès rapide à la jurisprudence et à la doctrine pour instruire et rédiger, accès rapide aux articles de droits 
 - **DAJ ministérielles** : veille juridique, interprétation de textes, rédaction d'avis
 - **Agents en contact avec le droit** : droit du travail, commande publique, droit public général
 
 :::callout[Plusieurs initiatives en cours]
-Mon Assistant Pénal, Jacepair (Conseil d'État), outils DILA sur Legifrance, renseignement en droit du travail aux ministères sociaux.
+Jacepair (Conseil d'État), outils DILA sur Legifrance, renseignement en droit du travail aux ministères sociaux.
 :::
 
 > Risque : fragmentation des efforts, doublons, inégalité d'accès selon les institutions et ordres juridictionnels.
